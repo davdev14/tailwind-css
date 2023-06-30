@@ -9,7 +9,15 @@ module.exports = {
   ],
   darkMode: 'class',
   theme: {
-    extend: {},
+    extend: {
+      listStyleImage: {
+        checkmark: 'url("https://js.pngtree.com/web3/images/multiImage01.svg")',
+    },
+    listStyleType: {
+      none: 'none',
+      square: 'square',
+      roman:'upper-roman',
+    }
   },
   plugins: [
     require('@tailwindcss/forms'),
@@ -24,6 +32,10 @@ module.exports = {
         '.content-visible': {
           'content-visibility': 'visible',
         },
+        '.vertical-text': {
+          'writing-mode': 'vertical-rl',
+          'text-orientation': 'mixed',
+        }
       })
     }),
     // plugin(function({ addBase, theme }) {
@@ -35,4 +47,4 @@ module.exports = {
     // })
   ],
 }
-
+}

@@ -12,6 +12,9 @@ import Backgrounds from "./backgrounds/Backgrounds";
 import Plugins from "./customization/Plugins";
 import Layout from "./layout/Layout";
 import Borders from "./borders/Borders";
+import Effects from "./effects/Effects";
+import Filters from "./filters/Filters";
+import Tables from "./tables/Tables";
 import { ThemeProvider } from "next-themes";
 const Page = () => {
   return (
@@ -29,6 +32,9 @@ const Page = () => {
         <Typography />
         <Backgrounds />
         <Borders />
+        <Effects />
+        <Filters />
+        <Tables />
       </div>
     </ThemeProvider>
   );

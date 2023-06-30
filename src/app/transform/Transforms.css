@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  border:  2px solid black;
+  text-align: center;
+  font-size: 21px;
+}
+#box1:hover {
+  transform: translate(100px, 100px);
+}
+#box2:hover {
+  transform: rotate(180deg);
+}
+#box3:hover {
+  transform: scale(2, 3);
+}
+#box4:hover {
+  transform: skew(20deg, 20deg);
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.box2 {
+  width: 100px;
+  height: 100px;
+  margin: 15px;
+  border:  2px solid black;
+  text-align: center;
+  font-size: 21px;
+}
+#box5:hover {
+  transform: rotateX(180deg);
+}
+#box6:hover {
+  transform: rotateY(120deg);
+}
+#box7:hover {
+  transform: rotateZ(120deg);
+}

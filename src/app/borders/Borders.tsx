@@ -3,6 +3,7 @@ import React from "react";
 const Borders = () => {
   return (
     <div>
+      <br />
       <h3>borders</h3>
       <h4>border</h4>
       <br />
@@ -35,7 +36,9 @@ const Borders = () => {
       <br /><br />
       <button className="... ring-offset-2 ring">Button B</button>
       <br /><br />
-      <button className="... ring-offset-4 ring-4 ring-offset-slate-50 dark:ring-offset-slate-900">Button C</button>
+      <button className="... mb-4 ring-offset-4 ring-4 ring-offset-slate-50 dark:ring-offset-slate-900">Button C</button>
+      <br />
+      <hr />
     </div>
   );
 };
